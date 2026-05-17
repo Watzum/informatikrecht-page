@@ -4,7 +4,7 @@ const highlights = [
   'Streaming von Stand-up-Comedy-Videos',
   'Video-on-Demand-Bibliothek mit vergangenen Events',
   'Einzelkauf bestimmter Comedy-Shows',
-  'Abo-Modell mit Zugriff auf alle verfuegbaren Inhalte',
+  'Abo-Modell mit Zugriff auf alle verfügbaren Inhalte',
 ]
 
 export function HomePage() {
@@ -14,16 +14,16 @@ export function HomePage() {
         <div className="container hero-grid">
           <div>
             <p className="eyebrow">Digitale Comedy aus Wien</p>
-            <h1>Die digitale Buehne fuer lokale Stand-up-Kultur</h1>
+            <h1>Die digitale Bühne für lokale Stand-up-Kultur</h1>
             <p className="lead">
-              Let Comedy Thrive ist eine Streaming- und VOD-Plattform fuer
+              Let Comedy Thrive ist eine Streaming- und VOD-Plattform für
               Stand-up-Comedy aus Wien und dem deutschsprachigen Raum.
             </p>
             <div className="hero-actions">
               <Link className="button button-primary" to="/events">
                 Zu Events und VOD
               </Link>
-              <Link className="button button-secondary" to="/ueber-uns">
+              <Link className="button button-secondary" to="/über-uns">
                 Mehr erfahren
               </Link>
             </div>
@@ -59,7 +59,7 @@ export function HomePage() {
             </figcaption>
           </figure>
           <p className="teaser-note">
-            Dies ist ein Teaser-Ausschnitt. Fuer vollständige Comedy-Shows und exklusive Inhalte:
+            Dies ist ein Teaser-Ausschnitt. Für vollständige Comedy-Shows und exklusive Inhalte:
             <Link to="/events" className="inline-link">
               {' '}Zu unserer VOD-Bibliothek
             </Link>
@@ -72,7 +72,7 @@ export function HomePage() {
           <figure className="showcase-figure">
             <img
               src="/pictures/stage_with_mic_and_chair.jpg"
-              alt="Leere Comedy-Buehne mit Mikrofon und Stuhl im Scheinwerferlicht"
+              alt="Bühne mit Hocker und Mikrofonständer vor schwarzem Vorhang"
               className="showcase-image"
             />
             <figcaption className="showcase-credit">

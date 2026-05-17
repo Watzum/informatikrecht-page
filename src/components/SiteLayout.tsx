@@ -6,7 +6,7 @@ const navItems = [
   { path: '/kaufen', label: 'Kaufen' },
   { path: '/konto', label: 'Login / Registrierung' },
   { path: '/barrierefreiheit', label: 'Barrierefreiheit' },
-  { path: '/ueber-uns', label: 'Ueber uns' },
+  { path: '/über-uns', label: 'über uns' },
 ]
 
 export function SiteLayout() {
@@ -19,7 +19,7 @@ export function SiteLayout() {
       <header className="site-header" aria-label="Kopfbereich">
         <div className="container header-inner">
           <div>
-            <p className="brand-kicker">Wien, Oesterreich</p>
+            <p className="brand-kicker">Wien, österreich</p>
             <p className="brand-name">Let Comedy Thrive</p>
           </div>
 
@@ -51,11 +51,15 @@ export function SiteLayout() {
         <div className="container footer-inner">
           <p>
             Let Comedy Thrive verbindet lokale Stand-up-Kultur mit digitalem
-            Streaming fuer ein breites Publikum im deutschsprachigen Raum.
+            Streaming für ein breites Publikum im deutschsprachigen Raum.
           </p>
           <p>
             <NavLink to="/barrierefreiheit" className="inline-link">
-              Zur Barrierefreiheitserklaerung
+              Zur Barrierefreiheitserklärung
+            </NavLink>
+            {' '}|{' '}
+            <NavLink to="/lizenz" className="inline-link">
+              Lizenzbedingungen
             </NavLink>
           </p>
         </div>

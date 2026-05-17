@@ -49,10 +49,6 @@ export function EventsPage() {
     <section className="content-section">
       <div className="container">
         <h1>Events und VOD-Bibliothek</h1>
-        <p className="lead compact">
-          Die folgenden Inhalte sind beispielhafte Katalogdaten. Such- und
-          Filterelemente sind derzeit als Vorschau ohne Live-Backend umgesetzt.
-        </p>
 
         <form className="filter-grid" aria-label="Suche und Filter">
           <div>
@@ -70,7 +66,7 @@ export function EventsPage() {
           </div>
         </form>
 
-        <ul className="event-grid" aria-label="Verfuegbare Comedy-Inhalte">
+        <ul className="event-grid" aria-label="Verfügbare Comedy-Inhalte">
           {eventItems.map((item) => (
             <li key={item.title} className="event-card">
               <h2>{item.title}</h2>

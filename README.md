@@ -1,6 +1,6 @@
 # Let Comedy Thrive
 
-Mehrseiten-Webseite fuer die Plattform Let Comedy Thrive.
+Mehrseiten-Webseite für die Plattform Let Comedy Thrive.
 
 ## Projektfokus
 
@@ -33,6 +33,6 @@ npm run build
 - Semantische HTML-Struktur und Landmarken
 - Skip-Link zum Hauptinhalt
 - Kontraststarkes Farbsystem
-- Responsive Layout fuer Smartphone, Tablet und Desktop
+- Responsive Layout für Smartphone, Tablet und Desktop
 
-Die Barrierefreiheitserklaerung ist ueber die Navigation und den Footer erreichbar.
+Die Barrierefreiheitserklärung ist über die Navigation und den Footer erreichbar.

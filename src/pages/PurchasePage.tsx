@@ -22,8 +22,8 @@ const products: Product[] = [
     quality: '4K',
   },
   {
-    id: 'stadt-buehne-special',
-    title: 'Stadtbuehne Special - Wien',
+    id: 'stadt-bühne-special',
+    title: 'Stadtbühne Special - Wien',
     comedian: 'Mila Gruber',
     price: 'EUR 7,40',
     quality: 'Full HD',
@@ -36,8 +36,8 @@ export function PurchasePage() {
       <div className="container">
         <h1>Einzelkauf</h1>
         <p className="lead compact">
-          Waehle eine Show fuer den direkten Einzelkauf. Die Kaufbuttons sind
-          als Frontend-Mock umgesetzt und loesen keine echte Zahlung aus.
+          Wähle eine Show für den direkten Einzelkauf. Die Kaufbuttons sind
+          als Frontend-Mock umgesetzt und lösen keine echte Zahlung aus.
         </p>
 
         <ul className="purchase-grid" aria-label="Einzeln kaufbare Shows">
@@ -48,7 +48,7 @@ export function PurchasePage() {
                 <strong>Comedian:</strong> {product.comedian}
               </p>
               <p>
-                <strong>Qualitaet:</strong> {product.quality}
+                <strong>Qualität:</strong> {product.quality}
               </p>
               <p className="price-tag">{product.price}</p>
               <button

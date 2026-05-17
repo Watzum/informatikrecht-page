@@ -5,7 +5,7 @@ export function AuthPage() {
         <h1>Login und Registrierung</h1>
         <p className="lead compact">
           Dieser Bereich ist als Frontend-Mock umgesetzt. Eingaben werden nicht
-          an ein Backend uebertragen.
+          an ein Backend übertragen.
         </p>
 
         <div className="auth-grid">
